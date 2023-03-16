@@ -1,6 +1,16 @@
-function App() {
+import React, { Fragment } from "react";
+
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+
+const App = () => {
   return (
-    <div className="text-4xl font-bold">Hello</div>
+    <Fragment>
+      <div className="h-screen flex flex-col">
+        <Navbar />
+        <Home />
+      </div>
+    </Fragment>
   );
 }
 
