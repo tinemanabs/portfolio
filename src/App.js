@@ -1,16 +1,17 @@
-import React, { Fragment } from "react";
-
-import Navbar from "./components/Navbar";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
+import About from "./components/About";
 
 const App = () => {
   return (
-    <Fragment>
-      <div className="h-screen flex flex-col">
-        <Navbar />
-        <Home />
-      </div>
-    </Fragment>
+
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+
+
   );
 }
 
