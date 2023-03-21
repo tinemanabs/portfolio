@@ -33,7 +33,7 @@ const Navbar = () => {
     ]
 
     return (
-        <nav className="px-4 sm:px-9 py-2.5 bg-blue-700">
+        <nav className="px-4 sm:px-9 py-2.5 bg-blue-900">
             <div className="container mx-auto flex items-center justify-between">
                 <a href="/" id="logo" className="text-5xl text-white">cm</a>
                 <button className="inline-flex md:hidden" onClick={menuBtnHandler}>

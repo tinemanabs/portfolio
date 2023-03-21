@@ -18,7 +18,7 @@ import reactIcon2 from "../assets/icons/reactIcon2.svg";
 import salesforce from "../assets/icons/salesforce.svg";
 import sass from "../assets/icons/sass.svg";
 import tailwindcss from "../assets/icons/tailwindcss.svg";
-import { FaLocationArrow, FaEnvelope, FaLinkedinIn, FaGithub, FaStar, FaLongArrowAltRight } from "react-icons/fa"
+import { FaLocationArrow, FaEnvelope, FaLinkedinIn, FaGithub, FaStar } from "react-icons/fa"
 
 import personalImgPng from '../assets/personalImg.png';
 
@@ -103,14 +103,14 @@ const About = () => {
                         <div>
                             <ul className="relative border-l border-gray-200">
                                 <li className="mb-10 ml-4 shadow-sm p-4">
-                                    <div className="absolute w-3 h-3 bg-blue-700 rounded-full mt-1.5 -left-1.5"></div>
+                                    <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
                                     <div className="text-gray-400">September 2022</div>
                                     <h1 className="font-bold text-xl">Digital Specialist Intern</h1>
                                     <h3 className="text-gray-500 text-lg">Datawords</h3>
                                     <p className="max-w-6xl text-justify">Configuration, and adaptation of website through CMS (Sales Force - Demandware), quality assurance of digital support across desktop and mobile environments, editing and localization of digital content (includes videos, images, banners…), asset management of images (modification, resizing, classification)</p>
                                 </li>
                                 <li className="mb-10 ml-4 shadow-sm p-4">
-                                    <div className="absolute w-3 h-3 bg-blue-700 rounded-full mt-1.5 -left-1.5"></div>
+                                    <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
                                     <div className="text-gray-400">May 2022</div>
                                     <h1 className="font-bold text-xl">Software Engineer Intern</h1>
                                     <h3 className="text-gray-500 text-lg">Cobra Itech Services Corporation</h3>
