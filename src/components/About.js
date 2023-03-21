@@ -2,8 +2,6 @@ import React, { Fragment } from "react";
 import Navbar from "./Navbar";
 import Card from "./UI/Card";
 import Header from "./UI/Header";
-import hsLogo from "../assets/hsLogo.png";
-import collegeSeal from "../assets/collegeSeal.png";
 import html5 from "../assets/icons/html5.svg";
 import bootstrap from "../assets/icons/bootstrap.svg";
 import codeigniter from "../assets/icons/codeigniter.svg";
@@ -76,23 +74,21 @@ const About = () => {
                     <div className="education-section">
                         <div className="font-bold text-4xl mb-8">Education</div>
                         <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
-                            <div className="flex gap-2">
-                                <img src={collegeSeal} alt="" className="w-20 h-24" />
-                                <div>
-                                    <h1 className="font-bold text-xl">FEU Institute of Technology</h1>
-                                    <p className="text-lg font-semibold">2018-2023</p>
-                                    <p>Bachelor of Science in Information Technology with specialization in Web and Mobile Applications</p>
-                                </div>
 
+
+                            <div>
+                                <h1 className="font-bold text-xl">FEU Institute of Technology</h1>
+                                <p className="text-lg font-semibold">2018-2023</p>
+                                <p>Bachelor of Science in Information Technology with specialization in Web and Mobile Applications</p>
                             </div>
-                            <div className="flex gap-2">
-                                <img src={hsLogo} alt="" className="w-20 h-24" />
-                                <div>
-                                    <h1 className="font-bold text-xl">St. Mary's College, Quezon City</h1>
-                                    <p className="text-lg font-semibold">2016-2018</p>
-                                    <p>Science, Technology, Engineering, Mathematics Strand</p>
-                                </div>
+
+
+                            <div>
+                                <h1 className="font-bold text-xl">St. Mary's College, Quezon City</h1>
+                                <p className="text-lg font-semibold">2016-2018</p>
+                                <p>Science, Technology, Engineering, Mathematics Strand</p>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -107,14 +103,14 @@ const About = () => {
                                     <div className="text-gray-400">September 2022</div>
                                     <h1 className="font-bold text-xl">Digital Specialist Intern</h1>
                                     <h3 className="text-gray-500 text-lg">Datawords</h3>
-                                    <p className="max-w-6xl text-justify">Configuration, and adaptation of website through CMS (Sales Force - Demandware), quality assurance of digital support across desktop and mobile environments, editing and localization of digital content (includes videos, images, banners…), asset management of images (modification, resizing, classification)</p>
+                                    <p className="text-justify">Configuration, and adaptation of website through CMS (Sales Force - Demandware), quality assurance of digital support across desktop and mobile environments, editing and localization of digital content (includes videos, images, banners…), asset management of images (modification, resizing, classification)</p>
                                 </li>
                                 <li className="mb-10 ml-4 shadow-sm p-4">
                                     <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
                                     <div className="text-gray-400">May 2022</div>
                                     <h1 className="font-bold text-xl">Software Engineer Intern</h1>
                                     <h3 className="text-gray-500 text-lg">Cobra Itech Services Corporation</h3>
-                                    <p className="max-w-6xl text-justify">
+                                    <p className="text-justify">
                                         Developed the company website based on the manager's preferences,
                                         communicated closely with other developers and project managers,
                                         created system documentation for future references, and

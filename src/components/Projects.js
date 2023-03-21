@@ -66,7 +66,8 @@ const Projects = () => {
             about: [
                 "- Redesigned the user interface and experience of the webpages present on the existing website of AGIA",
                 "- Created the project documentation for the website"
-            ]
+            ],
+            images: [a1, a2, a3, a4, a5, a6, a7, a8, a9]
         },
         {
             id: 2,
@@ -96,7 +97,8 @@ const Projects = () => {
             about: [
                 "- Paws Haven is a web application system focusing on animal shelter and welfare for domesticated animals.",
                 "- The project has provided an accounts module, adoption module, visitation module and charity module. "
-            ]
+            ],
+            images: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9, ph10]
         },
         {
             id: 4,
@@ -126,7 +128,8 @@ const Projects = () => {
             role: "Lead Developer",
             about: [
                 "- Thought Archive is a simple web application system that allows content-sharing by using the basic CRUD operations, implemented through CodeIgniter 3. It is a personal project in Web Systems Technologies subject during AY 2020-2021."
-            ]
+            ],
+            images: [ta1, ta2, ta3, ta4, ta5, ta6]
         }
 
     ]
@@ -138,8 +141,9 @@ const Projects = () => {
             <Card>
                 <div className="flex flex-wrap px-4">
                     {projects.map((project) => (
-                        <ProjectCard coverImage={project.coverImage} title={project.title}>
-                            <button className="font-semibold text-gray-400 hover:text-blue-900" onClick={() => openModal(project.id)}>View Project  →</button>
+                        <ProjectCard coverImage={project.coverImage} title={project.title} key={project.id}>
+                            <p className="font-semibold text-gray-400">{project.date}</p>
+                            <button className="font-semibold text-gray-300 hover:text-blue-900" onClick={() => openModal(project.id)}>View Project  →</button>
                             {showModal.show && showModal.modalId === project.id &&
                                 <Modal
                                     onClose={closeModal}
@@ -152,6 +156,8 @@ const Projects = () => {
                                     about={project.about}
                                     resource={project.resource}
                                     resourceLink={project.resourceLink}
+                                    images={project.images}
+                                    showModal={true}
                                 >
                                 </Modal>}
                         </ProjectCard>
