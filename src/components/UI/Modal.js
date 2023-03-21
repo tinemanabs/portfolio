@@ -50,7 +50,10 @@ const Modal = (props) => {
                                 <p>{item}</p>
                             ))}
                         </div>
-                        {props.children}
+                        {props.resource != null && <div className="grid grid-cols-1 mb-2">
+                            <h1 className="text-md font-bold mr-2">Resources:</h1>
+                            <a href={props.resourceLink} target="_blank" rel="noopener noreferrer">{props.resource}</a>
+                        </div>}
                     </div>
                 </div>
             </div>

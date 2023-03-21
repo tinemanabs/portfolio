@@ -80,7 +80,9 @@ const Projects = () => {
             about: [
                 "- Created the official website for the company ",
                 "- Created the project documentation for the website",
-            ]
+            ],
+            resource: "http://cobraitech.com",
+            resourceLink: "http://cobraitech.com"
         },
         {
             id: 3,
@@ -99,7 +101,7 @@ const Projects = () => {
         {
             id: 4,
             coverImage: kabisig,
-            title: "Kabisig",
+            title: "KaBisig",
             subtitle: "A Disaster Risk Reduction Management and Emergency Alert System for Barangay-Level to aid Pre, During and Post Natural Disasters",
             date: "Aug 2021 - Jan 2022",
             associated: "Thesis",
@@ -109,7 +111,9 @@ const Projects = () => {
                 "- KaBisig is a web and mobile application that aims to strengthen the DRRM in a barangay-level. ",
                 "- User Level: Resident, Barangay Officials, LGU",
                 "- Features: User Management Modul, Announcement Module, Protocol Module, Vulnerability Map Module, Emergency Module, Communication Module, Statistics Module"
-            ]
+            ],
+            resource: "KaBisig User Manual",
+            resourceLink: KabisigUserManual
         },
         {
             id: 5,
@@ -146,6 +150,8 @@ const Projects = () => {
                                     language={project.language}
                                     role={project.role}
                                     about={project.about}
+                                    resource={project.resource}
+                                    resourceLink={project.resourceLink}
                                 >
                                 </Modal>}
                         </ProjectCard>
