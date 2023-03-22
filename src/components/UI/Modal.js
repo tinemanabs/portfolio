@@ -59,7 +59,7 @@ const Modal = (props) => {
                         {images != null &&
                             <div className="flex flex-wrap">
                                 {images.map((img) => (
-                                    <div className="w-full lg:w-1/3 p-2">
+                                    <div className="w-full lg:w-1/3 md:w-1/2 p-2">
                                         <img src={img} alt="" className="drop-shadow-lg h-56 w-full object-contain" />
                                     </div>
                                 ))}

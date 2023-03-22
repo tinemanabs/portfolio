@@ -33,25 +33,25 @@ const About = () => {
             <Header title="About Me" />
             <Card>
                 <div className="grid grid-cols-12 p-7 items-center gap-y-6 " data-aos="fade-up">
-                    <div className="left-side-about-me col-span-12 md:col-span-3">
+                    <div className="left-side-about-me col-span-12 lg:col-span-3">
                         <img src={personalImgPng} alt="" className="w-64 rounded-full mx-auto shadow-lg" />
                     </div>
-                    <div className="right-side-about-me col-span-12 md:col-span-9 text-center">
-                        <h3 className="font-bold md:text-6xl text-4xl">Hi, I'm Christine Manabat 👋</h3>
+                    <div className="right-side-about-me col-span-12 lg:col-span-9 text-center">
+                        <h3 className="font-bold lg:text-6xl text-4xl">Hi, I'm Christine Manabat 👋</h3>
                         <p className="max-w-5xl py-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel rerum natus modi velit in dignissimos ab magnam quaerat, sunt, asperiores quidem hic molestias non vero necessitatibus, illum pariatur nihil porro!</p>
                         <p className="max-w-5xl text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel rerum natus modi velit in dignissimos ab magnam quaerat, sunt, asperiores quidem hic molestias non vero necessitatibus, illum pariatur nihil porro!</p>
                     </div>
                 </div>
 
-                <div className="grid md:grid-cols-4 grid-cols-1 bg-blue-50 py-5 px-7 md:px-0 mb-7" data-aos="fade-up">
-                    <div className="flex items-center w-full md:justify-center py-3">
+                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 bg-blue-50 py-5 px-7 md:px-0 mb-7" data-aos="fade-up">
+                    <div className="flex items-center w-full lg:justify-center py-3 md:px-6 lg:px-0">
                         <FaLocationArrow className="text-blue-900 text-2xl" />
                         <div className="flex flex-col ml-3">
                             <p className="text-sm md:text-md text-gray-600">Location</p>
                             <p className="font-semibold text-md md:text-lg">Pulilan, Bulacan</p>
                         </div>
                     </div>
-                    <div className="flex items-center w-full md:justify-center py-3">
+                    <div className="flex items-center w-full lg:justify-center py-3 md:px-6 lg:px-0">
                         <FaEnvelope className="text-blue-900 text-2xl" />
                         <div className="flex flex-col ml-3">
                             <p className="text-sm md:text-md text-gray-600">Email</p>
@@ -59,7 +59,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="flex items-center w-full md:justify-center py-3">
+                    <div className="flex items-center w-full lg:justify-center py-3 md:px-6 lg:px-0">
                         <FaLinkedinIn className="text-blue-900 text-2xl" />
                         <div className="flex flex-col ml-3">
                             <p className="text-sm md:text-md text-gray-600">LinkedIn</p>
@@ -67,7 +67,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="flex items-center w-full md:justify-center py-3">
+                    <div className="flex items-center w-full lg:justify-center py-3 md:px-6 lg:px-0">
                         <FaGithub className="text-blue-900 text-2xl" />
                         <div className="flex flex-col ml-3">
                             <p className="text-sm md:text-md text-gray-600">Github</p>
@@ -129,7 +129,7 @@ const About = () => {
                 </div>
 
                 <div className="px-7 mb-7">
-                    <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
                         <div className="skills-section">
                             <div className="font-bold text-4xl mb-8">Skills</div>
 
@@ -179,7 +179,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="achievements-section" data-aos="fade-up">
-                            <div className="font-bold text-4xl mb-8">Achievements</div>
+                            <div className="font-bold text-4xl mb-8 lg:mt-0 mt-4">Achievements</div>
                             <ul>
                                 <li className="py-2 flex items-center"><FaStar className="text-blue-900 text-lg mr-3" />Academic Scholar (2018-2022)</li>
                                 <li className="py-2 flex items-center"><FaStar className="text-blue-900 text-lg mr-3" />Top Performing Student (2020-2022)</li>
