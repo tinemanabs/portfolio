@@ -129,11 +129,11 @@ const About = () => {
                 </div>
 
                 <div className="px-7 mb-7">
-                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-4" data-aos="fade-up">
                         <div className="skills-section">
                             <div className="font-bold text-4xl mb-8">Skills</div>
 
-                            <div className="flex flex-wrap gap-5" data-aos="fade-up">
+                            <div className="flex flex-wrap gap-5">
                                 <div className="card shadow-md rounded-lg p-2">
                                     <img src={html5} alt="" srcset="" className="w-16" />
                                 </div>
@@ -178,7 +178,7 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="achievements-section" data-aos="fade-up">
+                        <div className="achievements-section">
                             <div className="font-bold text-4xl mb-8 lg:mt-0 mt-4">Achievements</div>
                             <ul>
                                 <li className="py-2 flex items-center"><FaStar className="text-blue-900 text-lg mr-3" />Academic Scholar (2018-2022)</li>
