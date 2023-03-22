@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fa020a84.css",
-    "main.js": "/portfolio/static/js/main.75a071b0.js",
+    "main.js": "/portfolio/static/js/main.fb7de0ae.js",
     "static/media/KabisigUserManual.pdf": "/portfolio/static/media/KabisigUserManual.5bd134c04e8e95ca1f5d.pdf",
     "static/media/ph1.png": "/portfolio/static/media/ph1.9e7d7027ecde3c8956c4.png",
     "static/media/a1.png": "/portfolio/static/media/a1.9990af5d4088454bbef9.png",
@@ -51,10 +51,10 @@
     "static/media/css3.svg": "/portfolio/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.fa020a84.css.map": "/portfolio/static/css/main.fa020a84.css.map",
-    "main.75a071b0.js.map": "/portfolio/static/js/main.75a071b0.js.map"
+    "main.fb7de0ae.js.map": "/portfolio/static/js/main.fb7de0ae.js.map"
   },
   "entrypoints": [
     "static/css/main.fa020a84.css",
-    "static/js/main.75a071b0.js"
+    "static/js/main.fb7de0ae.js"
   ]
 }
