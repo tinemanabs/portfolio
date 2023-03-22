@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import personalImgPng from '../assets/personalImg.png';
+import personalImgPng from '../assets/personalImgCopy.png';
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
 import SocialLink from "./UI/SocialLink";
 import Navbar from "./Navbar";
