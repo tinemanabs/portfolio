@@ -20,7 +20,9 @@ const Home = () => {
                     <div className="col-span-6 flex lg:items-start md:justify-start lg:justify-center flex-col lg:order-first order-last text-center" data-aos="fade-right">
                         <div className="text-4xl lg:text-7xl font-bold">Hi, I'm <span className="text-blue-900">Christine</span></div>
                         <div className="text-xl lg:text-2xl font-semibold py-2 lg:py-4 text-gray-500">Aspiring Web Developer</div>
-                        <div className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum praesentium nisi minus animi tempora eius in, architecto quibusdam recusandae. Inventore distinctio incidunt illo tempora beatae nesciunt pariatur tempore laudantium!</div>
+                        <div className="text-justify font-medium">
+                            A passionate Web Developer who likes to code from scratch and build innovative ideas in to the browser. Exposed on creating and designing web applications through different frameworks and libraries.
+                        </div>
                         <div className="flex mt-4 justify-center lg:justify-start gap-3">
                             <SocialLink link="https://www.facebook.com/tinemanabat/">
                                 <FaFacebookF className="w-7 h-7 text-gray-600 group-hover:text-white" />

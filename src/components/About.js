@@ -37,9 +37,16 @@ const About = () => {
                         <img src={personalImgPng} alt="" className="w-64 rounded-full mx-auto shadow-lg" />
                     </div>
                     <div className="right-side-about-me col-span-12 lg:col-span-9 text-center">
-                        <h3 className="font-bold lg:text-6xl text-4xl">Hi, I'm Christine Manabat 👋</h3>
-                        <p className="max-w-5xl py-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel rerum natus modi velit in dignissimos ab magnam quaerat, sunt, asperiores quidem hic molestias non vero necessitatibus, illum pariatur nihil porro!</p>
-                        <p className="max-w-5xl text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel rerum natus modi velit in dignissimos ab magnam quaerat, sunt, asperiores quidem hic molestias non vero necessitatibus, illum pariatur nihil porro!</p>
+                        <h3 className="font-bold lg:text-6xl text-4xl mb-4">Hi, I'm Christine Manabat 👋</h3>
+                        <p className="max-w-5xl text-justify">
+                            A <b>fresh IT graduate</b> specializing in Web and Mobile Applicatons. I had experienced working on IT Companies and had contributed software solutions.
+                            I am commonly assigned on the <b>Front-End Development</b> on most of the projects that I have worked on. I love making designs that are visually pleasing with
+                            assurance of giving comfort to the end-users. I have also experienced working on the <b>Back-End Development</b> by implementing functionalities through Laravel and MySQL.
+                        </p>
+                        <p className="max-w-5xl py-4 text-justify">
+                            I am currently learning <b>React.js</b> to expand more of my knowledge in building complex web applications. I am eager to learn new things and be open to new experiences.
+                            I am constantly developing my skills to effectively implement them in any opportunity that I receive. When I am not coding, I watch series, play video games and study technology trends.
+                        </p>
                     </div>
                 </div>
 
