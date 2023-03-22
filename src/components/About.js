@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import Navbar from "./Navbar";
 import Card from "./UI/Card";
 import Header from "./UI/Header";
@@ -16,17 +16,23 @@ import reactIcon2 from "../assets/icons/reactIcon2.svg";
 import salesforce from "../assets/icons/salesforce.svg";
 import sass from "../assets/icons/sass.svg";
 import tailwindcss from "../assets/icons/tailwindcss.svg";
-import { FaLocationArrow, FaEnvelope, FaLinkedinIn, FaGithub, FaStar } from "react-icons/fa"
-
+import { FaLocationArrow, FaEnvelope, FaLinkedinIn, FaGithub, FaStar } from "react-icons/fa";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import personalImgPng from '../assets/personalImg.png';
 
 const About = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <Fragment>
             <Navbar />
             <Header title="About Me" />
             <Card>
-                <div className="grid grid-cols-12 p-7 items-center gap-y-6 ">
+                <div className="grid grid-cols-12 p-7 items-center gap-y-6 " data-aos="fade-up">
                     <div className="left-side-about-me col-span-12 md:col-span-3">
                         <img src={personalImgPng} alt="" className="w-64 rounded-full mx-auto shadow-lg" />
                     </div>
@@ -37,7 +43,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="grid md:grid-cols-4 grid-cols-1 bg-blue-50 py-5 px-7 md:px-0 mb-7">
+                <div className="grid md:grid-cols-4 grid-cols-1 bg-blue-50 py-5 px-7 md:px-0 mb-7" data-aos="fade-up">
                     <div className="flex items-center w-full md:justify-center py-3">
                         <FaLocationArrow className="text-blue-900 text-2xl" />
                         <div className="flex flex-col ml-3">
@@ -71,7 +77,7 @@ const About = () => {
                 </div>
 
                 <div className="px-7 mb-7">
-                    <div className="education-section">
+                    <div className="education-section" data-aos="fade-up">
                         <div className="font-bold text-4xl mb-8">Education</div>
                         <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
 
@@ -94,7 +100,7 @@ const About = () => {
                 </div>
 
                 <div className="px-7 mb-7">
-                    <div className="experience-section">
+                    <div className="experience-section" data-aos="fade-up">
                         <div className="font-bold text-4xl mb-8">Experience</div>
                         <div>
                             <ul className="relative border-l border-gray-200">
@@ -127,7 +133,7 @@ const About = () => {
                         <div className="skills-section">
                             <div className="font-bold text-4xl mb-8">Skills</div>
 
-                            <div className="flex flex-wrap gap-5">
+                            <div className="flex flex-wrap gap-5" data-aos="fade-up">
                                 <div className="card shadow-md rounded-lg p-2">
                                     <img src={html5} alt="" srcset="" className="w-16" />
                                 </div>
@@ -172,7 +178,7 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="achievements-section">
+                        <div className="achievements-section" data-aos="fade-up">
                             <div className="font-bold text-4xl mb-8">Achievements</div>
                             <ul>
                                 <li className="py-2 flex items-center"><FaStar className="text-blue-900 text-lg mr-3" />Academic Scholar (2018-2022)</li>
@@ -185,7 +191,7 @@ const About = () => {
                 </div>
 
                 <div className="px-7 mb-7">
-                    <div className="certifications-section">
+                    <div className="certifications-section" data-aos="fade-up">
                         <div className="font-bold text-4xl mb-8">Certifications</div>
                         <div className="flex flex-wrap">
                             <div className="w-full lg:w-1/3 pb-2 pr-2">
