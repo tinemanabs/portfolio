@@ -39,6 +39,24 @@ import ta4 from "../assets/projects/thoughtarchive/ta4.png";
 import ta5 from "../assets/projects/thoughtarchive/ta5.png";
 import ta6 from "../assets/projects/thoughtarchive/ta6.png";
 
+import resort from "../assets/projects/resort/resort.jpg";
+import rm1 from "../assets/projects/resort/rm1.png";
+import rm2 from "../assets/projects/resort/rm2.png";
+import rm3 from "../assets/projects/resort/rm3.png";
+import rm4 from "../assets/projects/resort/rm4.png";
+import rm5 from "../assets/projects/resort/rm5.png";
+
+import nailsalon from "../assets/projects/nailsalon/nailSalon.jpg";
+import ns1 from "../assets/projects/nailsalon/ns1.png";
+import ns2 from "../assets/projects/nailsalon/ns2.png";
+import ns3 from "../assets/projects/nailsalon/ns3.png";
+import ns4 from "../assets/projects/nailsalon/ns4.png";
+import ns5 from "../assets/projects/nailsalon/ns5.png";
+import ns6 from "../assets/projects/nailsalon/ns6.png";
+import ns7 from "../assets/projects/nailsalon/ns7.png";
+import ns8 from "../assets/projects/nailsalon/ns8.png";
+
+
 import Modal from "./UI/Modal";
 import ProjectCard from "./Project/ProjectCard";
 
@@ -52,10 +70,38 @@ const Projects = () => {
     const closeModal = () => {
         setShowModal({ show: false })
     }
-
+    // ! REMINDER: CHANGE THE DATE/LANGUAGE/ROLE/ABOUT AND OTHER DETAILS
     const projects = [
         {
             id: 1,
+            coverImage: nailsalon,
+            title: "Nail Salon",
+            subtitle: "Commission Project",
+            date: "November 2021",
+            language: ["CodeIgniter3", "Bootstrap", "jQuery", "mySQL"],
+            associated: "Final Project",
+            role: "Lead Developer",
+            about: [
+                "- Thought Archive is a simple web application system that allows content-sharing by using the basic CRUD operations, implemented through CodeIgniter 3. It is a personal project in Web Systems Technologies subject during AY 2020-2021."
+            ],
+            images: [ns1, ns2, ns3, ns4, ns5, ns6, ns7, ns8]
+        },
+        {
+            id: 2,
+            coverImage: resort,
+            title: "Labak sa Morong",
+            subtitle: "Commission Project",
+            date: "November 2021",
+            language: ["CodeIgniter3", "Bootstrap", "jQuery", "mySQL"],
+            associated: "Final Project",
+            role: "Lead Developer",
+            about: [
+                "- Thought Archive is a simple web application system that allows content-sharing by using the basic CRUD operations, implemented through CodeIgniter 3. It is a personal project in Web Systems Technologies subject during AY 2020-2021."
+            ],
+            images: [rm1, rm2, rm3, rm4, rm5]
+        },
+        {
+            id: 3,
             coverImage: agia,
             title: "AGIA",
             subtitle: "A prototype website for AGIA",
@@ -70,7 +116,7 @@ const Projects = () => {
             images: [a1, a2, a3, a4, a5, a6, a7, a8, a9]
         },
         {
-            id: 2,
+            id: 4,
             coverImage: cobraitech,
             title: "Cobra Itech",
             subtitle: "Company Website",
@@ -86,7 +132,7 @@ const Projects = () => {
             resourceLink: "http://cobraitech.com"
         },
         {
-            id: 3,
+            id: 5,
             coverImage: pawshaven,
             title: "Paws Haven",
             subtitle: "Animal Shelter and Welfare for Domesticated Animals through Web Application System",
@@ -101,7 +147,7 @@ const Projects = () => {
             images: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9, ph10]
         },
         {
-            id: 4,
+            id: 6,
             coverImage: kabisig,
             title: "KaBisig",
             subtitle: "A Disaster Risk Reduction Management and Emergency Alert System for Barangay-Level to aid Pre, During and Post Natural Disasters",
@@ -118,7 +164,7 @@ const Projects = () => {
             resourceLink: KabisigUserManual
         },
         {
-            id: 5,
+            id: 7,
             coverImage: thoughtarchive,
             title: "Thought Archive",
             subtitle: "Final Project",
@@ -130,7 +176,7 @@ const Projects = () => {
                 "- Thought Archive is a simple web application system that allows content-sharing by using the basic CRUD operations, implemented through CodeIgniter 3. It is a personal project in Web Systems Technologies subject during AY 2020-2021."
             ],
             images: [ta1, ta2, ta3, ta4, ta5, ta6]
-        }
+        },
 
     ]
 

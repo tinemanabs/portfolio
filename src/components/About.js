@@ -16,6 +16,9 @@ import reactIcon2 from "../assets/icons/reactIcon2.svg";
 import salesforce from "../assets/icons/salesforce.svg";
 import sass from "../assets/icons/sass.svg";
 import tailwindcss from "../assets/icons/tailwindcss.svg";
+import lumen from "../assets/icons/lumen.svg";
+import materialUI from "../assets/icons/materialUI.svg";
+import postman from "../assets/icons/postman.svg";
 import { FaLocationArrow, FaEnvelope, FaLinkedinIn, FaGithub, FaStar } from "react-icons/fa";
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -113,14 +116,23 @@ const About = () => {
                             <ul className="relative border-l border-gray-200">
                                 <li className="mb-10 ml-4 shadow-sm p-4">
                                     <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
-                                    <div className="text-gray-400">September 2022</div>
+                                    <div className="text-gray-400">May 2023 - February 2023</div>
+                                    <h1 className="font-bold text-xl">Junior Software Engineer</h1>
+                                    <h3 className="text-gray-500 text-lg">Universal Access and Systems Solutions</h3>
+                                    <p className="text-justify">
+                                        Developed and maintained software applications tailored for internal use by utilizing Laravel, Lumen and React.js, Collaborated closely with clients and developers to translate requirements into technical solutions, Implemented optimized approach within the software application resulting in improved user experience
+                                    </p>
+                                </li>
+                                <li className="mb-10 ml-4 shadow-sm p-4">
+                                    <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
+                                    <div className="text-gray-400">September 2022 - January 2023</div>
                                     <h1 className="font-bold text-xl">Digital Specialist Intern</h1>
                                     <h3 className="text-gray-500 text-lg">Datawords</h3>
                                     <p className="text-justify">Configuration, and adaptation of website through CMS (Sales Force - Demandware), quality assurance of digital support across desktop and mobile environments, editing and localization of digital content (includes videos, images, banners…), asset management of images (modification, resizing, classification)</p>
                                 </li>
                                 <li className="mb-10 ml-4 shadow-sm p-4">
                                     <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
-                                    <div className="text-gray-400">May 2022</div>
+                                    <div className="text-gray-400">May 2022 - July 2022</div>
                                     <h1 className="font-bold text-xl">Software Engineer Intern</h1>
                                     <h3 className="text-gray-500 text-lg">Cobra Itech Services Corporation</h3>
                                     <p className="text-justify">
@@ -163,13 +175,22 @@ const About = () => {
                                     <img src={reactIcon2} alt="" srcset="" className="w-16" />
                                 </div>
                                 <div className="card shadow-md rounded-lg p-2">
+                                    <img src={materialUI} alt="" srcset="" className="w-16" />
+                                </div>
+                                <div className="card shadow-md rounded-lg p-2">
                                     <img src={laravel} alt="" srcset="" className="w-16" />
+                                </div>
+                                <div className="card shadow-md rounded-lg p-2">
+                                    <img src={lumen} alt="" srcset="" className="w-16" />
                                 </div>
                                 <div className="card shadow-md rounded-lg p-2">
                                     <img src={codeigniter} alt="" srcset="" className="w-16" />
                                 </div>
                                 <div className="card shadow-md rounded-lg p-2">
                                     <img src={mysql} alt="" srcset="" className="w-16" />
+                                </div>
+                                <div className="card shadow-md rounded-lg p-2">
+                                    <img src={postman} alt="" srcset="" className="w-16" />
                                 </div>
                                 <div className="card shadow-md rounded-lg p-2">
                                     <img src={salesforce} alt="" srcset="" className="w-16" />
