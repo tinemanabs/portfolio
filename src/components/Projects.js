@@ -77,12 +77,13 @@ const Projects = () => {
             coverImage: nailsalon,
             title: "Nail Salon",
             subtitle: "Commission Project",
-            date: "November 2021",
-            language: ["CodeIgniter3", "Bootstrap", "jQuery", "mySQL"],
-            associated: "Final Project",
-            role: "Lead Developer",
+            date: "August 2023",
+            language: ["Laravel", "Tailwind", "React.js", "jQuery", "mySQL"],
+            associated: "Commission Project",
+            role: "Full Stack Developer",
             about: [
-                "- Thought Archive is a simple web application system that allows content-sharing by using the basic CRUD operations, implemented through CodeIgniter 3. It is a personal project in Web Systems Technologies subject during AY 2020-2021."
+                "- Nail Salon Project is a web application system made to help people easily book appointments for the services available at the salon.",
+                "- The project has provided accounts module, online nail customization, reservation module, reports module, services module, and SMS module."
             ],
             images: [ns1, ns2, ns3, ns4, ns5, ns6, ns7, ns8]
         },
@@ -91,12 +92,13 @@ const Projects = () => {
             coverImage: resort,
             title: "Labak sa Morong",
             subtitle: "Commission Project",
-            date: "November 2021",
-            language: ["CodeIgniter3", "Bootstrap", "jQuery", "mySQL"],
-            associated: "Final Project",
-            role: "Lead Developer",
+            date: "May 2023",
+            language: ["Laravel", "Bootstrap", "jQuery", "mySQL"],
+            associated: "Commission Project",
+            role: "Full Stack Developer",
             about: [
-                "- Thought Archive is a simple web application system that allows content-sharing by using the basic CRUD operations, implemented through CodeIgniter 3. It is a personal project in Web Systems Technologies subject during AY 2020-2021."
+                "- Labak sa Morong is a web application system designed to facilitate reservations for accommodations, services and events.",
+                "- The project has provided accounts module, reservation module, accommodation module, reports module, inventory module, and SMS module."
             ],
             images: [rm1, rm2, rm3, rm4, rm5]
         },
@@ -139,7 +141,7 @@ const Projects = () => {
             date: "March 2022",
             associated: "Final Project",
             language: ["Laravel", "Bootstrap", "mySQL"],
-            role: "Lead Developer",
+            role: "Full Stack Developer",
             about: [
                 "- Paws Haven is a web application system focusing on animal shelter and welfare for domesticated animals.",
                 "- The project has provided an accounts module, adoption module, visitation module and charity module. "
@@ -171,7 +173,7 @@ const Projects = () => {
             date: "November 2021",
             language: ["CodeIgniter3", "Bootstrap", "jQuery", "mySQL"],
             associated: "Final Project",
-            role: "Lead Developer",
+            role: "Full Stack Developer",
             about: [
                 "- Thought Archive is a simple web application system that allows content-sharing by using the basic CRUD operations, implemented through CodeIgniter 3. It is a personal project in Web Systems Technologies subject during AY 2020-2021."
             ],

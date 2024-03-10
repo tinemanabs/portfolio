@@ -42,12 +42,13 @@ const About = () => {
                     <div className="right-side-about-me col-span-12 lg:col-span-9 text-center">
                         <h3 className="font-bold lg:text-6xl text-4xl mb-4">Hi, I'm Christine Manabat 👋</h3>
                         <p className="max-w-5xl text-justify">
-                            A <b>fresh IT graduate</b> specializing in Web and Mobile Applicatons. I had experienced working on IT Companies and had contributed software solutions.
-                            I am commonly assigned on the <b>Front-End Development</b> on most of the projects that I have worked on. I love making designs that are visually pleasing with
-                            assurance of giving comfort to the end-users. I have also experienced working on the <b>Back-End Development</b> by implementing functionalities through Laravel and MySQL.
+                            An <b>IT graduate</b> specializing in Web and Mobile Applications. I have a total of <b>three (3) years of experience</b> in developing web applications, 
+                            starting with <b>school projects, freelancing and gradually evolving to significant contribution to businesses.</b> I had experienced working on IT Companies 
+                            and had contributed software solutions from my internship and professional experience. Most of the projects that I have worked on is that, I am commonly 
+                            assigned as a <b>Full Stack Developer</b> where I handled both the creation of user interfaces and implementation of functionalities in the system. 
                         </p>
                         <p className="max-w-5xl py-4 text-justify">
-                            I am currently learning <b>React.js</b> to expand more of my knowledge in building complex web applications. I am eager to learn new things and be open to new experiences.
+                            I am eager to learn new things and be open to new experiences.
                             I am constantly developing my skills to effectively implement them in any opportunity that I receive. When I am not coding, I watch series, play video games and study technology trends.
                         </p>
                     </div>
@@ -114,6 +115,15 @@ const About = () => {
                         <div className="font-bold text-4xl mb-8">Experience</div>
                         <div>
                             <ul className="relative border-l border-gray-200">
+                                <li className="mb-10 ml-4 shadow-sm p-4">
+                                    <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
+                                    <div className="text-gray-400">May 2022 - Present</div>
+                                    <h1 className="font-bold text-xl">Full Stack Developer</h1>
+                                    <h3 className="text-gray-500 text-lg">Freelancing</h3>
+                                    <p className="text-justify">
+                                    Created web application projects for small businesses that require a system by using Laravel and React.js
+                                    </p>
+                                </li>
                                 <li className="mb-10 ml-4 shadow-sm p-4">
                                     <div className="absolute w-3 h-3 bg-blue-900 rounded-full mt-1.5 -left-1.5"></div>
                                     <div className="text-gray-400">May 2023 - February 2023</div>
