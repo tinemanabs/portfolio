@@ -24,7 +24,7 @@ const App = () => {
     <>
       <Header />
       <div
-        className="max-w-7xl mx-auto scroll-mt-25"
+        className="max-w-7xl mx-auto scroll-mt-25 overflow-x-hidden"
         id="mainContent"
         data-aos="fade-up"
       >
