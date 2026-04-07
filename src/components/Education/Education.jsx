@@ -17,12 +17,6 @@ const Education = () => {
       school: "St. Mary's College, Quezon City",
       year: "2016-2018",
     },
-    // {
-    //   id: 3,
-    //   degree: "Advanced Diploma in Full Stack Development",
-    //   school: "TechAcademy Online",
-    //   year: "2023-2024",
-    // },
   ];
   return (
     <section className="education-section" data-aos="fade-left">

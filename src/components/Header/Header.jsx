@@ -71,6 +71,4 @@ const Header = () => {
   );
 };
 
-// fix responsiveness
-
 export default Header;
