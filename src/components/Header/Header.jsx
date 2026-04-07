@@ -9,7 +9,7 @@ import {
 const Header = () => {
   return (
     <div
-      className="bg-[#F9FAFB] px-5 md:px-10 xl:px-30 py-3 sm:py-14 min-h-screen flex flex-col"
+      className="bg-[#F9FAFB] px-5 md:px-10 xl:px-30 py-3 sm:py-14 min-h-svh flex flex-col"
       data-aos="fade-up"
     >
       <div className="flex flex-col justify-center items-center gap-9 flex-1 text-center">
