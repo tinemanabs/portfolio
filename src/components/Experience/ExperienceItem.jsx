@@ -1,7 +1,7 @@
 const ExperienceItem = ({ title, company, duration, achievements }) => {
   return (
     <div
-      className="border-l border-[#D1D5DC] px-5 mt-5 relative"
+      className="border-l border-[#D1D5DC] px-4 mt-5 relative"
       data-aos="fade-right"
     >
       <div className="h-3 w-3 rounded-full bg-[#030213] absolute top-2 left-[-7px]"></div>
